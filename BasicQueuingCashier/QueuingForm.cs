@@ -12,7 +12,7 @@ namespace BasicQueuingCashier
 {
     public partial class QueuingForm : Form
     {
-        CashierClass cashier;
+       private CashierClass cashier;
         public QueuingForm()
         {
             InitializeComponent();
