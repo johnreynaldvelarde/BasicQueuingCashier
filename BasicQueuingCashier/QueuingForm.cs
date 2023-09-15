@@ -17,6 +17,8 @@ namespace BasicQueuingCashier
         {
             InitializeComponent();
             cashier = new CashierClass();
+            CashierWindowQueueForm cas = new CashierWindowQueueForm();
+            cas.Show();
         }
 
         private void btnCashier_Click(object sender, EventArgs e)

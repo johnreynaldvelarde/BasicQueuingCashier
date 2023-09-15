@@ -16,6 +16,7 @@ namespace BasicQueuingCashier
         public CashierWindowQueueForm()
         {
             InitializeComponent();
+           
         }
 
         public void DisplayCashierQueue(IEnumerable CashierList)
