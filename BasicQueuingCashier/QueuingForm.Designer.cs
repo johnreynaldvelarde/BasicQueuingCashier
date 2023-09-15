@@ -62,9 +62,9 @@
             this.lblQueue.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblQueue.Location = new System.Drawing.Point(251, 156);
             this.lblQueue.Name = "lblQueue";
-            this.lblQueue.Size = new System.Drawing.Size(313, 42);
+            this.lblQueue.Size = new System.Drawing.Size(65, 42);
             this.lblQueue.TabIndex = 2;
-            this.lblQueue.Text = "Position in Queue";
+            this.lblQueue.Text = "P -";
             // 
             // label3
             // 
