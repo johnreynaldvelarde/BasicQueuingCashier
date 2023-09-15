@@ -16,8 +16,7 @@ namespace BasicQueuingCashier
         public QueuingForm()
         {
             InitializeComponent();
-
-
+            cashier = new CashierClass();
         }
 
         private void btnCashier_Click(object sender, EventArgs e)
@@ -25,6 +24,7 @@ namespace BasicQueuingCashier
             lblQueue.Text = cashier.CashierGeneratedNumber("P - ");
             CashierClass.getNumberInQueue =lblQueue.Text;
             CashierClass.CashierQueue.Enqueue(CashierClass.getNumberInQueue);
+            
         }
     }
 }
